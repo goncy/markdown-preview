@@ -50,8 +50,8 @@ class App extends Component {
     const {text} = this.state
 
     return (
-      <div className='App vh-100 h-100 bg-blue flex flex-column justify-between'>
-        <main className='flex w-100 flex-row-ns flex-column'>
+      <div className='App min-vh-100 h-100 bg-blue flex flex-column justify-between'>
+        <main className='flex w-100 flex-row-l flex-column'>
           {/* Texto plano */}
           <div className='pa2 w-100'>
             <Window title='Texto plano'>
@@ -65,7 +65,7 @@ class App extends Component {
           </div>
 
           {/* Markdown */}
-          <div className='pa2 pl0-ns pt0 pt2-ns w-100'>
+          <div className='pa2 pl0-l pt0 pt2-l w-100'>
             <Window
               title='Markdown'
               bgColor='near-white'
