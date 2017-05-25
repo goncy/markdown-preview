@@ -8,6 +8,10 @@
   outline: none;
 }
 
-a {
+footer a {
   color: white;
+}
+
+a {
+  color: inherit;
 }
