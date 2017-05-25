@@ -1,0 +1,13 @@
+.App textarea {
+  resize: vertical;
+  border: none;
+  width: 100%;
+}
+
+.App textarea:focus {
+  outline: none;
+}
+
+a {
+  color: white;
+}

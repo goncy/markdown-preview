@@ -1,0 +1,24 @@
+{
+  "name": "markdown-preview",
+  "homepage": "https://goncy.github.io/markdown-preview",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "marked": "^0.3.6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "tachyons": "^4.7.4"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.6",
+    "gh-pages": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  }
+}

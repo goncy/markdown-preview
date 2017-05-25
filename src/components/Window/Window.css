@@ -1,0 +1,18 @@
+.Window main {
+  min-height: 358px;
+}
+
+.Window header {
+  height: 30px;
+}
+
+.Window header .action-button {
+  width: 11px;
+  height: 11px;
+  margin-left: 7px;
+  margin-top: 1px;
+}
+
+.Window header .action-button:first-child {
+  margin-left: 0;
+}
