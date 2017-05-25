@@ -77,7 +77,7 @@ class App extends Component {
           </div>
         </main>
         <footer className='center tc pa1 near-white helvetica'>
-          Hecho con ❤️ por <a target='_blank' href='https://github.com/goncy'>Gonzalo Pozzo</a> para <a target='_blank' href='https://www.freecodecamp.com'>freeCodeCamp</a> 🏕️
+          Hecho con <span role='img' aria-label='hearth'>❤️</span> por <a target='_blank' rel="noopener noreferrer" href='https://github.com/goncy'>Gonzalo Pozzo</a> para <a target='_blank' rel="noopener noreferrer" href='https://www.freecodecamp.com'>freeCodeCamp</a> <span role='img' aria-label='camp'>🏕️</span>
         </footer>
       </div>
     )
